@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="font-size: 100%;
+text-align: center;
+padding: 10px;
+background-color: #869DC7;
+clear: both;">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <a class="button" href="signup.html">Home</a>
+</head>
+<body>
+    
+<center>
+<img src="https://www.icegif.com/wp-content/uploads/mind-blown-icegif-3.gif" alt="Logo">
+</center>
+   <h1 style="text-align: center;">Welcome to Runtime Terror! </h1>
+   <p style="text-align: center;">Hello {{name}}.</p>
+   <p style="text-align: center;">Welcome {{group}}!</p>
+   <div class="container">
+    <script style="text-align: center;">alert("Danger! You are entering Runtime Error... Continue if you must.")</script>
+    {% block content %}
+    {% endblock %}
+   </div>
+</body>
+<footer style="font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #869DC7;
+    clear: both;">
+    <br>
+    <style>
+        body { text-align: left; }
+        .button  { 
+            border-radius: 60px;
+            padding: 1em; 
+            color: #FFFFFF;
+            background-color: #E38690;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button:link { color : #FFFFFF; }
+        .button:visited { color : #CCCCCC; }
+        .button:hover { color : #965251; background-color: #F7DEE1; }
+        h1 { margin-bottom: 2em; }
+        </style>
+    <nav>
+        <a href="aboutus.html">About us</a> &nbsp;
+        <a href="contact.html">Contact</a> &nbsp;
+        <a href="faq.html">FAQ</a> &nbsp;
+        <a href="scared.html">Scared?</a> &nbsp;
+      </nav> 
+    <p>© All rights reserved | Runtime Terror | 2022</p>
+</footer>
+</html>

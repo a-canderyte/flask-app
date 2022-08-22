@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3 style="text-align: center; color: #6157ff; font-size: 50px;">Now you are here...</h3>
+
+<p style="text-align: center;">These are {{name}}'s favourite attacks & hacks:</p>
+<p style="text-align: center;">We will start by giving you a: <em>{{popup_list[0]}}</em></p>
+<ul style="text-align: center;">
+    {% for n in popup_list %}
+    <li>{{n}}</li>
+    {% endfor %}
+</ul>
+<iframe width="420" height="315"
+src="https://youtube.com/embed/CVCuN_q1K_g?t=17&autoplay=1&mute=0">
+</iframe>
+<br>
+{% endblock %}
